@@ -13,9 +13,9 @@ int main(int argc, const char * argv[])
     
     
     float float1 = 12.123456789f;   //12.123457 建议这样写+f
-    //float float2 = 12.123456789;  //12.123457
-    //float float3 = 12.2f;         //12.200000 默认输出小数点后6位
-    //float float4 = 12.2;          //12.200000
+    float float2 = 12.123456789;  //12.123457
+    float float3 = 12.2f;         //12.200000 默认输出小数点后6位
+    float float4 = 12.2;          //12.200000
     printf("%f\n",float1);          //12.123457
     
     //位数float, double %.2f, $.2lf 是一样的用法
@@ -26,9 +26,9 @@ int main(int argc, const char * argv[])
     printf("%lf\n", double1);        //12.123457 保留后6位小数,小数不足6位以0补充
     
     char char1 = 'c';
-    //char char2 = "c";       //双引号内容不能正确输出
-    //char char3 = "北京";     //不支持中文，会输出一个ASCII码, 赋值时可以直接赋ASCII: 'A':65, 'a':97 '0':48
-    //char char4 = "abcd";    //d 只能存储一个字符，且为最一个字符
+    char char2 = "c";       //双引号内容不能正确输出
+    char char3 = "北京";     //不支持中文，会输出一个ASCII码, 赋值时可以直接赋ASCII: 'A':65, 'a':97 '0':48
+    char char4 = "abcd";    //d 只能存储一个字符，且为最一个字符
     
     printf("%c\n", char1);
     
