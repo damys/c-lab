@@ -33,7 +33,7 @@ int main(int argc, const char * argv[])
     printf("%c\n", char1);
     
     printf("%d, %f, %fl, %c\n", int1, float1, double1, char1); //123456, 12.123457, 12.123457l, c
-    //printf("%d, %f, %fl, %c\n", float1, double1, char1);     //99, 12.123457, 12.123457l, 缺少匹配的值时，系统会随机数分配值
+    printf("%d, %f, %fl, %c\n", float1, double1, char1);     //99, 12.123457, 12.123457l, 缺少匹配的值时，系统会随机数分配值
     
-    //return 0;
+    return 0;
 }
