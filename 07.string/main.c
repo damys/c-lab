@@ -88,11 +88,5 @@ int main(int argc, const char * argv[]) {
     printf("%s\n", str1);  //aabb 注意：str1 长度要够长才可以，否则不会连接
     
     
-    
-    
-    
-    
-    
-    
     return 0;
 }
