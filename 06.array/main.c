@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-//#define LEN 10     //数组的长度可以定义为宏
+#define LEN 10     //数组的长度可以定义为宏
 
 void testArray(int arr[], int len){   //当函数的参数为数组.并不会创建数组，而是声明一个变量用来存储数组地址的，也做指针变量
     //在函数的内部，sizeof返回的长度为8，因为当数组作为参数传递时就会丢失的
